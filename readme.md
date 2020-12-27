@@ -13,14 +13,14 @@ Le regole sono molto semlici, potrai usare:
 
 N.B. Come avrai visto l'unico framework ammesso è JQuery, quindi, non usare bootstrap o altri framework simili.
 
-In questo repository git troverai lo struttura di progetto su cui dovrai lavorare per relaizzare il tuo lavoro, al suo interno già sono presenti le immagini di cui avrai bisogno, mentre per le icone puoi scegliere liberamente quali usare e come integrarle nel progetto.
+In questo repository git troverai la struttura di progetto che dovrai utilizzare per relaizzare il tuo lavoro, al suo interno sono presenti le immagini di cui avrai bisogno, mentre per le icone puoi scegliere liberamente quali usare e come integrarle nel progetto.
 
 ### Come procedere
 
-1. Clona il repository sul tuo pc
-2. Crea un nuovo branch usando il tuo nome ed il tuo cognome come nome del branch. Es. ```$ git checkout -b davide-gulli ```
+1. Clona il repository sul tuo pc ```$ git clone https://github.com/Daje-Commerce/frontend-developer-test.git ```
+2. Crea un nuovo branch usando il tuo nome ed il tuo cognome come nome del branch. ```$ git checkout -b davide-gulli ```
 3. Lavora sul nuovo branch per realizzare le pagine richieste modificando i file necessari
-4. Una volta terminato il tuo lavoro fai push sul branch
+4. Una volta terminato il tuo lavoro fai push sul tuo branch
   
 Un ultima raccomandazione...  
   
