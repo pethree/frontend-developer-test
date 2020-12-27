@@ -18,7 +18,7 @@ In questo repository git troverai lo struttura di progetto su cui dovrai lavorar
 ### Come procedere
 
 1. Clona il repository sul tuo pc
-2. Crea un nuovo branch usando il tuo nome ed il tuo cognome come nome del branch. Es. ```bash git checkout -b davide-gulli```
+2. Crea un nuovo branch usando il tuo nome ed il tuo cognome come nome del branch. Es. ```$ git checkout -b davide-gulli ```
 3. Lavora sul nuovo branch per realizzare le pagine richieste modificando i file necessari
 4. Una volta terminato il tuo lavoro fai push sul branch
   
