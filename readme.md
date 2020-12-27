@@ -15,7 +15,7 @@ N.B. Come avrai visto l'unico framework ammesso è JQuery, quindi, non usare boo
 
 In questo repository git troverai lo struttura di progetto su cui dovrai lavorare per relaizzare il tuo lavoro, al suo interno già sono presenti le immagini di cui avrai bisogno, mentre per le icone puoi scegliere liberamente quali usare e come integrarle nel progetto.
 
-### Come dovrai procedere
+### Come procedere
 
 1. Clona il repository sul tuo pc
 2. Crea un nuovo branch usando il tuo nome ed il tuo cognome come nome del branch. Es. ```bash git checkout -b davide-gulli```
