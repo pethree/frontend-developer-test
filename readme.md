@@ -17,10 +17,11 @@ In questo repository git troverai la struttura di progetto che dovrai utilizzare
 
 ### Come procedere
 
-1. Clona il repository sul tuo pc ```$ git clone https://github.com/Daje-Commerce/frontend-developer-test.git ```
-2. Crea un nuovo branch usando il tuo nome ed il tuo cognome come nome del branch. ```$ git checkout -b davide-gulli ```
-3. Lavora sul nuovo branch per realizzare le pagine richieste modificando i file necessari
-4. Una volta terminato il tuo lavoro fai push sul tuo branch
+1. Fai il fork di questo repository
+2. Fai il clone sul tuo pc del nuovo repository creato tramite il fork 
+3. Lavora sul progetto per realizzare le pagine richieste modificando i file necessari
+4. Una volta terminato il tuo lavoro fai push sul repository
+5. Invia una mail all'indirizzo matteo@daje.shop inserendo il link al repositoy contenente il tuo lavoro
   
 Un ultima raccomandazione...  
   
