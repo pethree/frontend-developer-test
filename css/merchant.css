@@ -1,0 +1,152 @@
+.merchantcarousel {
+  display: grid;
+  grid-area: partner_banner;
+  grid-template-rows: 1fr;
+  height: 300px;
+  width: 100%;
+}
+
+.merchantcarousel img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Hide the images by default */
+.myMerchantSlides {
+  display: none;
+}
+
+.card_user_name > h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.merchant_group {
+  padding: 30px 20px;
+}
+
+.merchant__address > p {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.list__section_items {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-areas: "offersTitle";
+  width: 100%;
+}
+
+.offers__title {
+  cursor: pointer;
+  background-color: rgba(0, 117, 54, 0.2196078431372549);
+  padding: 10px 20px;
+  width: 100%;
+  grid-area: offersTitle;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  border-bottom: 1px solid #005b287d;
+}
+
+.offers__title > i {
+  padding: 10px 16px;
+  font-size: 30px;
+  color: #707070;
+}
+
+.offers__title:hover {
+  background-color: rgba(0, 117, 55, 0.357);
+}
+
+.offers__list {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-areas: "offer controls";
+  width: auto;
+  grid-gap: 10px;
+  padding: 20px;
+}
+
+.offers__details {
+  display: block;
+  padding: 5px;
+}
+
+.offers__details > ul {
+  padding: 0;
+}
+
+.offer > h1 {
+  margin: 0;
+}
+.offer > p {
+  font-size: 12px;
+  margin: 10px 0;
+  line-height: 16px;
+}
+.offer > .old_price {
+  text-decoration: line-through;
+  font-size: 14px;
+}
+.offer > .new_price {
+  font-size: 15px;
+  font-weight: bold;
+  color: #008000;
+}
+.new_price > p {
+  font-size: 14px;
+}
+
+.controls {
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "plus input minus";
+  font-size: 25px;
+  align-items: center;
+}
+.controls * {
+  padding: 10px;
+}
+.controls > input {
+  width: 50%;
+  padding: 5px;
+}
+.controls > input::placeholder {
+  padding: 7px;
+}
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.controls > i:hover {
+  color: #007633bd;
+}
+
+/*********************************************/
+@media (min-width: 800px) {
+  .first__section {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-areas: "merchant offers";
+    column-gap: 25px;
+  }
+  .merchant {
+    grid-area: merchant;
+  }
+}
+
+@media (min-width: 1280px) {
+  .first__section {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-areas: "merchant offers";
+    column-gap: 25px;
+  }
+  .merchant {
+    grid-area: merchant;
+  }
+}

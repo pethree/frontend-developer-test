@@ -3,21 +3,230 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />   
-    <meta name="description" content="">
-    <link rel="icon" type="image/png" href="images/favicon-32x32.png">   
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!-- Document title -->
     <title>DAJE | Home Page</title>
     <!-- Stylesheets & Fonts -->
-    <link href="css/index.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet" />
+    <link href="css/navigation.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="js/script.js"></script>
 </head>
 
 <body>
-    <!-- Write here the html page content -->
+    <div class="wrapper">
+        <div class="nav__header">
+            <div class="nav_logo">
+                <img src="images/logo.png" />
+            </div>
+            <div class="nav_info">
+                <ul>
+                    <li><span><i class="fas fa-user"></i></span></li>
+                    <li><span><i class="fas fa-shopping-cart"></i></span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="first__section">
+            <div class="card">
+                <div class="card_title">
+                    <h1>
+                        La spesa online </br> dei piccoli negozi di quartiere </br> direttamente a casa
+                        tua
+                    </h1>
+                </div>
+                <div class="card_paragraph">
+                    <p>
+                        Ricevi a casa tua, in meno di 24 ore, prodotti dei negozi locali che
+                        ami in un unico ordine.
+                    </p>
+                </div>
+                <div class="card_input">
+                    <input type='text' placeholder="Inserisci il tuo CAP per la consegna" /></br>
+                    <label>
+                        <p>Verifica la copertura del servizio nella tua zona</p>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="second__section">
+            <h1>Come funziona?</h1>
+            <div class="second__section_items">
+                <div class="cap">
+                    <span><i class="fas fa-map-marker-alt"></i> </span>
+                    <p>Scegli il tuo CAP e visita i negozi</p>
+                </div>
+
+                <div class="people">
+                    <span><i class="fas fa-users"></i></span>
+                    <p>Ordina prodotti da tutti i negozi che vuoi</p></span>
+                </div>
+
+                <div class="shop">
+                    <span><i class="fas fa-shopping-bag"></i> </span>
+                    <p>Ricevili a casa con un'unica spedizione</p>
+                </div>
+            </div>
+            <div class="second__section_reviews">
+                <a href="">Leggi le recensioni e le domande comuni</a>
+            </div>
+        </div>
+
+        <div class="third__section">
+            <h1>Perche scegliere DAJE?</h1>
+            <div class="third__section_items">
+                <div class="image_section">
+                </div>
+                <div class='desc_section'>
+                    <ul>
+                        <li>
+                            <p>1) Acquista dai tuoi negozianti di fiducia</p>
+                        </li>
+                        <li>
+                            <p>2) Ricevi prodotti freshi e di qualita'</p>
+                        </li>
+                        <li>
+                            <p>3) Supporta i tesori del tuo quartiere</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="fourth__section">
+            <h1>Potresti aver visto DAJE su</h1>
+            <div class="fourth__section_items">
+                <div class="partner_banner"><div class="partnerbanner">
+                    <img class="first" src="./images/logo-corriere-della-sera.png">
+                    <img src="./images/logo-il-sole-24-ore.png">
+                    <img src="./images/logo-millionaire.png">
+                    <img src="./images/logo-rai-news.png">
+                    <img src="./images/logo-corriere-della-sera.png">
+                    <img src="./images/logo-il-sole-24-ore.png">
+                    <img src="./images/logo-millionaire.png">
+                    <img src="./images/logo-rai-news.png">
+                    <img src="./images/logo-corriere-della-sera.png">
+               
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fifth__section">
+
+            <h1>Cosa ne pensano le persone</h1>
+            <div class="fifth__section_items">
+
+                <i class="fas fa-angle-left left_arrow" onclick="plusSlides(-1)"></i>
+                <i class="fas fa-angle-right right_arrow" onclick="plusSlides(1)"></i>
+
+                <div class="slides_content">
+                    <div class="card myCardSlides" style="display: block">
+                        <div class="card_user_name">
+                            <h1>Chiara</h1>
+                        </div>
+                        <div class="card_user_desc">
+                            <p>
+                                "Ricevi a casa tua, in meno di 24 ore, prodotti dei negozi locali che
+                                ami in un unico ordine."
+                            </p>
+                        </div>
+                        <div class="card_user_rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                    <div class="card myCardSlides">
+                        <div class="card_user_name">
+                            <h1>Ettore</h1>
+                        </div>
+                        <div class="card_user_desc">
+                            <p>"Sito internet molto intuitivo e facile da consultare. Servizio veloce e prodotti buoni. Assistenza clienti impeccabile. Davvero ottimo!"</p>
+                        </div>
+                        <div class="card_user_rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                    <div class="card myCardSlides">
+                        <div class="card_user_name">
+                            <h1>Lorena</h1>
+                        </div>
+                        <div class="card_user_desc">
+                            <p>"Servizio comodo, preciso e prodotti di qualita', lo consiglio vivamente"</p>
+                        </div>
+                        <div class="card_user_rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                    </div>
+            </div>
+    </div>
+        
+
+
+        <div class="sixt__section">
+            
+            <div class="sixt__section_items">
+                <h1>Domande Frequenti</h1>
+                <div class="item_group">
+                    <h1>Come funziona la consegna?</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. <a href="#">Link</a></p>
+                </div>
+                <div class="item_group">
+                    <h1>Dove e' attivo il servizio?</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. <a href="#">Link</a></p>
+                </div>
+                <div class="item_group">
+                    <h1>Quanto costa il servizio?</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.asdasdas Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. <a href="#">Link</a></p>
+                </div>
+                <div class="item_group">
+                    <h1>Se qualcosa non va con il mio ordine?</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. <a href="#">Link</a></p>
+                </div>
+                <a>Hai altre domande? Clicca qui per contattarci: saremo subito da te!</a>
+            </div>
+            <div class="seven__section">
+                <h1>Hai un negozio?</h1>
+                <div class="seven__section_items">
+                    <div class="item_group">
+                        <p>La nostra missione e' quella di riuscire a connettere le persone con i negozi del proprio quartiere. Se hai un negozio e vuoi unirti a Daje, o se vuoi solamente richiedere informazioni in merito al funzionamento del servizio, contattaci e saremo felici di spiegarti tutto</p>
+                    </div>
+                    <button>Contattaci</button>
+                </div>
+            </div>
+        </div>
+
+
+        
+
+
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
 </body>
 
 </html>

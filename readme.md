@@ -2,7 +2,7 @@
 
 Benvenuto nel test di valutazione per gli aspiranti frontend developer di DAJE! :)
 
-Per completare il test ti chiediamo di realizzare due delle pagine più importanti presenti all'interno del nostro sito, ovvero la homepage (index.html) e la merchant page (merchant.html), a questo [link](https://miro.com/app/board/o9J_laIf3pc=/) trovi i mockup delle due pagine, trovi la password per accedere nella mail che ti abbiamo inviato.
+Per completare il test ti chiediamo di realizzare due delle pagine più importanti presenti all'interno del nostro sito, ovvero la homepage (index.html) e la merchant page (merchant.html), a questo [link](https://miro.com/app/board/o9J_laIf3pc=/) trovi i mockup delle due pagine, trovi la password per accedere nella mail che ti abbiamo inviato..
 
 Le regole sono molto semlici, potrai usare:
  
@@ -13,7 +13,7 @@ Le regole sono molto semlici, potrai usare:
 
 N.B. Come avrai visto l'unico framework ammesso è JQuery, quindi, non usare bootstrap o altri framework simili.
 
-In questo repository git troverai la struttura di progetto che dovrai utilizzare per realizzare il tuo lavoro, al suo interno sono presenti le immagini di cui avrai bisogno, mentre per le icone puoi scegliere liberamente quali usare e come integrarle nel progetto.
+In questo repository git troverai la struttura di progetto che dovrai utilizzare per relaizzare il tuo lavoro, al suo interno sono presenti le immagini di cui avrai bisogno, mentre per le icone puoi scegliere liberamente quali usare e come integrarle nel progetto.
 
 ### Come procedere
 

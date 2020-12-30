@@ -1,0 +1,42 @@
+.nav__header {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "nav_logo nav_info";
+  padding: 15px;
+}
+
+.nav_logo img {
+  width: 130px;
+}
+
+.nav_info > ul {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  display: grid;
+  margin: 0;
+  height: 100%;
+  align-items: center;
+  font-size: 24px;
+  list-style: none;
+}
+
+.nav_info > ul > li {
+  cursor: pointer;
+}
+.nav_info > ul > li:nth-child(2) {
+  color: #007633;
+}
+
+.nav_info > ul > li:hover {
+  color: #007633bd;
+}
+
+.nav_arrow_back {
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.nav_arrow_back:hover {
+  color: #007633bd;
+}
