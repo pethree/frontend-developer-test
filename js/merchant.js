@@ -5,13 +5,28 @@ $(document).ready(function () {
         e.preventDefault();
         $offers__title = $(this);
         $arrow_icon = $(this).children().eq(1);
-        $arrow_icon.toggleClass('fa-chevron-down fa-chevron-up');
-        //getting the next element
-        $content = $(this).nextAll();
-        //open up the content needed - toggle the slide- if visible, slide up, if not slidedown.
-        $content.slideToggle(500, function () {
+        $arrow_icon.toggleClass('fa-chevron-up fa-chevron-down');
 
+        $content = $(this).nextAll();
+
+        $content.slideToggle(500, function () {
         });
+    });
+
+    $(".fa-plus").click(function () {
+        var quantity = $(this).next('input');
+        var value = quantity.val();
+        quantity.val(++value);
+
+    });
+
+    $(".fa-minus").click(function () {
+        var quantity = $(this).prev('input');
+        var value = quantity.val();
+        if (quantity.val() > 0) {
+            quantity.val(--value);
+        }
+
     });
 });
 
@@ -36,12 +51,12 @@ function currentSlide(n) {
 
 function showSlides(n) {
     var i;
-    var x = $(".myMerchantSlides");
-    if (n > x.length) { slideIndex = 1 }
-    if (n < 1) { slideIndex = x.length }
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-        x[slideIndex - 1].style.display = "block";
+    var merchantslides = $(".myMerchantSlides");
+    if (n > merchantslides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = merchantslides.length }
+    for (i = 0; i < merchantslides.length; i++) {
+        merchantslides[i].style.display = "none";
+        merchantslides[slideIndex - 1].style.display = "block";
     }
 }
 

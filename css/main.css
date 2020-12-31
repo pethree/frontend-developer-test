@@ -201,7 +201,6 @@
   grid-area: partner_banner;
 }
 
-/*BANNER*/
 .partnerbanner {
   height: 150px;
   width: 3000px;
@@ -337,8 +336,7 @@
   height: auto;
   position: relative;
 }
-.card_review {
-}
+
 .card_review_name h1 {
   padding: 0;
 }
